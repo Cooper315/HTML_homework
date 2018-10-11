@@ -1,0 +1,161 @@
+body {
+    background: lightgray;
+  }
+  
+th {
+    background-color:rgb(34, 161, 149);
+    color: white;
+    padding:20px;
+    align:center;
+    }
+td{
+    padding:20px;
+    align:center;
+}
+
+#img1{ background-color: white;
+float:left;
+width: 45%;
+position: relative;
+margin-left:3%}
+
+
+
+h2 {color:rgb(34, 161, 149);
+    visibility: visible;
+    font-family: 'Lusitana', serif;
+    text-align:center;
+    font-weight:bold;
+}
+
+
+.container1{
+    background-color:white;
+    /* margin-left:50px;
+    width:50%;
+    text-align: justify; */
+}
+
+.comparisons1{
+    background-color:white;
+    width:80%;
+    margin-left:10%;
+}
+
+.mainparagraph{    
+    float: left;
+    text-indent: 40px;
+    font-size: 15px;
+background-color:white;
+position:relative;}
+
+
+.navbar {
+    padding-left: 00px;
+  }
+
+.dropdown:hover {
+    background-color: rgb(40, 197, 197);
+}
+
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: lightgrey;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+
+Collapse 
+
+.article{padding:20px, 20px;}
+
+.left{
+    /* float:left; */
+    background-color:white;
+    width:60%;
+}
+
+.imgs{width:500px;}
+
+.right{float:right;
+background-color:white;}
+
+
+
+img{
+    float: left;
+    width: 600px;
+    margin-right: 10px;
+ 
+ }
+ p{
+    width:500px;
+    float: left;
+    text-indent: 40px;
+    font-size: 15px;
+    padding-left: 40px;
+ }
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(34, 161, 149);}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: rgb(40, 197, 197);
+}
+
+
+Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels
+@media (max-width: 480px) {
+    .navbar li {
+      padding: 10px;
+    }
+  
+    .post {
+      margin-right: 30px;
+      margin-left: 30px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
+  }
+
+
+  
